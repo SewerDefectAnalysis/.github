@@ -10,7 +10,7 @@ The flow diagram below illustrates the overall process. Each step can be accesse
 %%{init: {'flowchart': {'nodeSpacing': 40, 'rankSpacing': 50}}}%%
 flowchart LR
 
-    A[Database<br/>Creation]:::data --> B[Validation<br/>Rules]:::validation
+    A[Database<br/>Structure]:::data --> B[Validation<br/>Rules]:::validation
     B --> D[Defect Distribution<br/>Analysis]:::analysis
     D --> E[Defect-Factor<br/>Correlation Analysis]:::analysisP2
 
