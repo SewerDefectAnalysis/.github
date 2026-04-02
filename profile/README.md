@@ -1,6 +1,6 @@
 # Sewer Defect Analysis Framework
 
-This repository presents a framework for analyzing defects in sewer pipes. The project is organized into five sequential steps, each designed to support a comprehensive examination of defect characteristics within sewer systems.
+This organization presents a framework for analyzing defects in sewer pipes. The project is organized into four sequential steps and one optional step, each designed to support a comprehensive examination of defect characteristics within sewer systems.
 
 Each step is implemented in a separate repository and is described in detail in the associated academic papers. As each component serves a distinct purpose, users may choose to execute individual steps independently or run the full workflow for a complete analysis.
 
