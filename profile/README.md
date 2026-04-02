@@ -38,7 +38,7 @@ flowchart LR
 A brief description of each step is provided below, together with the DOI links to the corresponding papers, where each component is described in greater detail.
 
 ## Papers and Repositories
-### 1. Database Structure for Defect-Level Modelling
+### 1. Database Structure for Defect-Level Modeling
 
 This repository implements the database structure proposed in the study by translating the conceptual Entity–Relationship Diagram (ERD) into an executable relational schema using Python. The aim is to provide a coherent and well-organized representation of all entities, attributes, and relationships required for defect-level sewer condition analysis.
 
@@ -55,11 +55,11 @@ The application of validation rules is strongly recommended prior to analysis to
 In addition, an optional validation report can be generated in Excel format, summarizing the fields that do not comply with the expected data types or fall outside the defined ranges. This report provides a systematic record of data inconsistencies, supporting transparency and enabling users to review potential issues without modifying the original dataset.
 
 ### 3. Defect Distribution Analysis
-This repository uses the validated data to perform a descriptive analysis of defects and their properties. The analysis aims to characterize the observed defects and provide insight into their distribution within the network.
+This repository uses validated data to perform a descriptive analysis of defects and their properties. The analysis aims to characterize the observed defects and provide insight into their distribution within the network.
 
 Specifically, the code enables the description of the sewer network and its comparison with the subset of pipes inspected via CCTV, allowing an assessment of the representativeness of the inspection data. In addition, it supports the analysis and visualization of key defect properties observed during inspections, including the average number of defects per pipe, defect type, defect size, longitudinal location along the pipe, extent, and circumferential position.
 
 ### 4. Defect–Factor Correlation Analysis
-This repository analyzes CCTV inspection data and reported sewer defects to explore the relationships between pipe-related factors (both numerical and categorical) and different defect types. The analysis can be performed for different pipe materials, allowing users to identify patterns, similarities, and differences in how factors relate to defect occurrence.
+This repository analyzes CCTV inspection data and reported sewer defects to explore the relationships between pipe-related factors (both numerical and categorical) and different defect types. The analysis can be performed across different pipe materials, allowing users to identify patterns, similarities, and differences in how factors relate to defect occurrence.
 
 The code supports the evaluation of statistical associations between factors and defects, enabling the identification of variables that may influence the presence or frequency of specific defect types.
