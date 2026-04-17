@@ -25,6 +25,8 @@ flowchart LR
 
     %% Click links
     click A "https://github.com/SewerDefectAnalysis/Database_Structure"
+    click B "https://github.com/SewerDefectAnalysis/Data_validation"
+    click C "https://github.com/SewerDefectAnalysis/Data_validation"
 
     %% Styles
     classDef data fill:#E8F0FE,stroke:#1A73E8,stroke-width:1.8px
@@ -32,7 +34,7 @@ flowchart LR
     classDef analysis fill:#F3E8FD,stroke:#9334E6,stroke-width:1.8px
     classDef analysisP2 fill:#FDEBD0,stroke:#E67E22,stroke-width:1.8px
     classDef prediction fill:#FEF7E0,stroke:#F9AB00,stroke-width:1.8px
-    classDef optional fill:#F5F5F5,stroke:#666666,stroke-width:1.8px,stroke-dasharray: 5 5
+    classDef optional fill:#E6F4EA,stroke:#666666,stroke-width:1.8px,stroke-dasharray: 5 5
 
 ```
 A brief description of each step is provided below, together with the DOI links to the corresponding papers, where each component is described in greater detail.
